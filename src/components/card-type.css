@@ -1,0 +1,26 @@
+.card-type,
+.card-type-null {
+  background-color: gray;
+  color: white;
+  width: auto;
+
+  justify-content: space-around;
+  float: right;
+  margin-left: 10px;
+  font-size: 10px;
+}
+.card-type-null {
+  margin-top: 3px;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  display: inline;
+  float: right;
+}
+.card-type {
+  border-radius: 3px;
+  height: 15px;
+  width: max-content;
+  padding: 2px 5px;
+}

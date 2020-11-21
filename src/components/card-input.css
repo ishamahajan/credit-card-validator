@@ -1,0 +1,57 @@
+.card-input,
+.card-input-error {
+  background-color: white;
+  color: black;
+  width: 40%;
+  border-radius: 4px;
+  height: 50px;
+  margin-left: 200px;
+  display: block;
+  padding: 10px;
+  padding-top: 15px;
+  box-sizing: border-box;
+  position: relative;
+  top: 60px;
+}
+.card-input {
+  border-left: 2px solid #ba8cd7;
+  border-right: 2px solid #3cdff0;
+}
+.card-input::before {
+  content: "";
+  height: 2px;
+  position: absolute;
+  left: -1px;
+  right: -2px;
+  top: 0;
+  border-radius: 4px;
+  background: linear-gradient(to right, #ba8cd7 33%, #2184cd 66%, #3cdff0 100%);
+}
+.card-input::after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  left: -1px;
+  right: -2px;
+  bottom: 0;
+  border-radius: 4px;
+  background: linear-gradient(to right, #ba8cd7 33%, #2184cd 66%, #3cdff0 100%);
+}
+.card-input-error {
+  border: 2px solid red;
+}
+.input-style {
+  float: left;
+  border: none;
+}
+.input-style:focus {
+  outline: none;
+}
+.card-input-container {
+  background-color: #d0d0d0;
+  width: 50%;
+  height: 200px;
+  margin: auto;
+  margin-top: 50px;
+  align-content: center;
+}
